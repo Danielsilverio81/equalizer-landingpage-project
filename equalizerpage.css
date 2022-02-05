@@ -18,11 +18,6 @@ body {
 
 .max-width-container {max-width: 825px;}
 
-.cabecalho {
-    width: 100%;
-    height: 300px;
-}
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -30,11 +25,12 @@ body {
 }
 
 .call-content {
-    margin: 100px 0 0 164px;
+    margin: 70px 0 0 164px;
     text-align: left;
 }
 
 .call-content h1 {
+    padding: 50px 0;
     font-size: 8rem;
     font-weight: bold;
     line-height: 8rem;
@@ -45,7 +41,11 @@ body {
     font-size: 2rem;
 }
 
-.image-first { margin-top: -160px;}
+.image-first { 
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -565px;
+}
 
 .image-first img {
     max-width: 312px;
@@ -55,3 +55,77 @@ body {
 .title-content {
     padding: 70px 0 0 165px;
 }
+
+.container-black {
+    background-color: #191826;
+    width: 100%;
+    height: auto;
+    max-width: 1110px;
+    height: 600px;
+}
+
+.image-two img {
+    width: 100%;
+    max-width: 312px;
+    max-height: 468px;
+}
+
+.image-three img {
+    width: 100%;
+    height: auto;
+    max-width: 312px;
+    height: 642px;
+}
+
+
+.card {
+    background-color: #FA7453;
+    padding: 30px;
+    width: 100%;
+    max-width: 446px;
+    height: 625px;
+    text-align: left;
+    border-radius: 3%;
+}
+
+.card h2 {
+    color: #FCFAF9;
+    font-size: 4rem;
+    padding: 30px 0 22px 20px;
+}
+
+.card p { 
+    color: #FCFAF9;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 39px 39px 20px;
+}
+
+.card strong {
+    color: #FCFAF9;
+    font-size: 6rem;
+}
+
+.b1 {
+    color: #FCFAF9;
+    background-color: #191826;
+    width: 100%;
+    max-width: 333px;
+    height: 61px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.b2 {
+    color: #191826;
+    background-color: #FCFAF9;
+    width: 100%;
+    max-width: 333px;
+    height: 61px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.b1-apple {padding-right: 5px;}
+
+.b2-robot {padding-right: 5px;}
