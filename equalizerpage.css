@@ -223,7 +223,7 @@ span {
     .call-content h1 {font-size: 4rem; line-height: 3.5rem; padding-top: 0; padding-bottom: 0;}
     .call-content p {padding-top: 10px; padding-right: 30px; font-size: 1.6rem; line-height: 2.5rem;}
     .container-black {width: 375px; margin:166px 0;}
-    .card {width: 375px; margin: 0; top:997px; left:0;}
+    .card {width: 371px; margin: 0; top:997px; left:0;}
     .image-relative img {width:280px; left:48px; bottom: 0;}
     .image-absolute img {width:208px; height: 430px; top: 500px; left: 80px; }
     .b1,.b2 {width: 296px;}
