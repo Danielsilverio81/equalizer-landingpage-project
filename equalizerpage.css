@@ -52,8 +52,8 @@ body {
     position: absolute;
     top: -40px;
     right: 1px;
-    max-width: 312px;
-    max-height: 468px;
+    width: 312px;
+    height: 468px;
 }
 
 .title-content {
@@ -83,7 +83,7 @@ body {
     position: absolute;
     top: 599px;
     left: 185px;
-    max-width: 313px;
+    width: 313px;
     height: 642px;
 }
 
@@ -123,8 +123,7 @@ body {
 
 .b1,.b2 {
     margin: 8px 25px;
-    width: 100%;
-    max-width: 333px;
+    width: 333px;
     height: 61px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -194,6 +193,7 @@ span {
 
 .svg-fill:hover {
     fill: #FA7453;
+    cursor: pointer;
 }
 
 .attribution {display: flex;}
@@ -202,8 +202,8 @@ span {
 /*Media Queries*/
 
 @media (min-width:768px) and (max-width:1115px) {
-    .call-content h1 {font-size: 5.8rem; padding-right: 105px; padding-top: 0; padding-bottom: 5px;}
-    .call-content p { font-size: 1.6rem;}
+    .call-content h1 {font-size: 5.8rem; line-height: 6rem; padding-right: 130px; padding-top: 0; padding-bottom: 5px;}
+    .call-content p { font-size: 1.6rem; padding-right: 143px;}
     .container-black {width: 696px; margin:200px 43px;}
     .card {width: 399px; height: 546px;  top: 870px; left: 290px;}
     .card p {font-size: 1.8rem;}
