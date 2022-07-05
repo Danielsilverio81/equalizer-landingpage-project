@@ -1,0 +1,40 @@
+/*Media Queries*/
+
+@media (min-width:768px) and (max-width:1115px) {
+    .call-content h1 {font-size: 5.8rem; line-height: 6rem; padding-right: 130px; padding-top: 0; padding-bottom: 5px;}
+    .call-content p { font-size: 1.6rem; padding-right: 143px;}
+    .container-black {width: 696px; margin:200px 43px;}
+    .card {width: 399px; height: 546px;  top: 870px; left: 290px;}
+    .card p {font-size: 1.8rem;}
+    .card h2 {font-size: 3rem;}
+    .image-first img {width: 265px;}
+    .image-absolute img {width: 271px; height: 556px;  top: 575px; left: 110px;}
+    .image-relative img {left: 220px;}
+    .container-footer {flex-wrap: wrap; margin-left: 80px;}
+    .title2 {margin:100px 0 0 10px;}
+    .icones {margin-top: 200px; margin-right: 40px;}
+    .content-footer p { padding-right: 100px;}
+    .b1,.b2 {width: 295px;}
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .image-first {display: none;}
+    .container {padding: 0 0 15px 15px; margin-top: 150px;}
+    .title-content { margin-top: 70px; margin-bottom: 50px; padding-left:5px;}
+    .call-content h1 {font-size: 4rem; line-height: 3.5rem; padding-top: 0; padding-bottom: 0;}
+    .call-content p {padding-top: 10px; padding-right: 30px; font-size: 1.6rem; line-height: 2.5rem;}
+    .container-black {width: 375px; margin:166px 0;}
+    .card {width: 371px; margin: 0; top:997px; left:0;}
+    .image-relative img {width:280px; left:48px; bottom: 0;}
+    .image-absolute img {width:208px; height: 430px; top: 500px; left: 80px; }
+    .b1,.b2 {width: 296px;}
+    .footer {flex-direction: column; flex-wrap: wrap; margin-top:500px; margin-bottom: 20px;}
+    .container-footer {flex-direction: column; gap: 10px;}
+    .content-footer p {padding: 10px; margin-bottom: 50px; font-size: 1.8rem; line-height: 2.9rem;}
+    .title2,.icones {margin-left: 15px;}
+    .attribution {display: inline-block;}
+}
+
+@media (min-width:320px) and (max-width:766px) {
+    body {background-position-y:-600px; background-position-x: 70%;}
+}
